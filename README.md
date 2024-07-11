@@ -1,5 +1,14 @@
 # bashrc
 
+##One command
+
+```bash
+cp ~/.bashrc ~/.bashrc.backup && wget -O ~/.bashrc https://raw.githubusercontent.com/chuccv/bashrc/main/.bashrc
+```
+
+
+##OR
+
 Alias Bashrc
 Mở file bằng gedit
 Thay chuccv bằng user name của bạn.
