@@ -3,7 +3,7 @@
 ##One command
 
 ```bash
-cp ~/.bashrc ~/.bashrc.backup && wget -O ~/.bashrc https://raw.githubusercontent.com/chuccv/bashrc/main/.bashrc
+cp ~/.bashrc ~/.bashrc.backup && wget -O ~/.bashrc https://raw.githubusercontent.com/chuccv/bashrc/main/.bashrc && source ~/.bashrc
 ```
 
 
