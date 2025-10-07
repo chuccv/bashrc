@@ -104,7 +104,7 @@ alias devi='cd /home/chuccv/MyDevilbox'
 
 #Magento & Service
 alias cm='sudo chmod -R 777 generated/ var/ pub/'
-alias clg='rm -R generated/; mkdir generated/;chmod -R 777 generated/'
+alias clg='rm -R generated/; mkdir generated/; sudo chown -R www-data:www-data var generated pub'
 alias cmm='rm -R var/cache generated/code ; mkdir var/cache generated/code;sudo chmod -R 777 var/ generated/'
 alias dicp='bin/magento s:d:c'
 alias cf='bin/magento c:f; chown -R www-data:www-data var'
